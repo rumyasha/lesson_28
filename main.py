@@ -31,7 +31,7 @@ async def echo(message: types.Message):
 
     if message.text == "sabina":
         await message.reply("hello bot")
-    elif message.text == "Аня" or "Рен":
+    elif message.text == "f" or "w":
         await message.reply("что вы делаете в моем холодосе")
     else:
         await message.answer(f"you write {message.text}")
